@@ -16,6 +16,7 @@ seaborn==0.13.2
 SQLAlchemy==2.0.40
 xarray==2025.1.2 # Mantener si tu app.py lo importa
 xgboost==3.0.2
+gunicorn
 
 # Considera también las dependencias de xarray si la conversión de NetCDF a CSV es parte del proyecto:
 # cftime==1.6.4.post1
